@@ -1,0 +1,18 @@
+{
+  "name": "automacaosuperfrete",
+  "version": "1.0.0",
+  "description": "Projeto de automatizado super frete",
+  "main": "index.js",
+  "author": "Janaina Juvino",
+  "license": "MIT",
+  "scripts": {
+    "test": "cypress run",
+    "open": "cypress open",
+    "npx cypress run video": "npx cypress run --headed --browser chrome"
+  
+  },
+  "devDependencies": {
+    "cypress": "^13.12.0",
+    "cypress-plugin-api": "^2.6.1"
+  }
+}
