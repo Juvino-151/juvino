@@ -27,7 +27,7 @@ E campostela.cy.js onde se econtra o fluxo das mensagens de erro.
 
 ## Observações:
 
-- Após efetuar as instalações necessárias e o projeto estiver pronto para ser iniciado, para maior agilidade, no EXPLORADOR no Select list SCRIPTS NPM contém
+- Após efetuar as instalações necessárias e o projeto estiver pronto para ser iniciado, para maior agilidade, no `EXPLORADOR` no Select list `SCRIPT NPM`  contém
 dois scripts o test onde é possível ao clicar, iniciar o comando:
 
 - test - cypress run : Exibe no modo headless, ou seja, sem uma interface gráfica. Ao executa-lo o além do  relatorio dos resultados da automação, caso ocorra alguma falha  o cypress cria um arquivo png onde é possível visualizar na pasta Screenshots e um arquivo .mp4 com a performance de cada fluxo.
@@ -36,7 +36,29 @@ dois scripts o test onde é possível ao clicar, iniciar o comando:
 
 - npx cypress video: Exibe no modo headless e com uma interface visual, além de gravar um arquivo mp4 para os dois fluxos, quem podem ser visualizados ao final da execução na pasta videos
 
-1. Clone o repositório:
+## Criar arquivo screenshots
+- Altere por exemplo o resultado das mensagens de erro:
+ex: No arquivo commands.js altere
 
-   ```sh
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+        { value: '    ', shouldPass: false, message: 'CEP de origem é obrigatório' },
+
+        para:
+
+        { value: '    ', shouldPass: false, message: 'CEP de origem é obrigatóriggo' }, 
+
+        Salve e inicie a automação do arquivo campostelas.
+
+ **Clone o repositório:**
+
+1. **Obtenha a URL do Repositório**:
+   - Vá para a página do repositório no GitHub.
+   - Clique no botão verde "Code".
+   - Copie a URL HTTPS ou SSH.
+
+2. **Clone o Repositório**:
+   - Abra o terminal.
+   - Use o comando `git clone` seguido da URL copiada.
+
+   Usando HTTPS:
+  
+   git clone git@github.com:Juvino-151/juvino.git
