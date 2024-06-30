@@ -38,7 +38,7 @@ dois scripts o test onde é possível ao clicar, iniciar o comando:
 
 ## Criar arquivo screenshots
 - Altere por exemplo o resultado das mensagens de erro:
-ex: No arquivo commands.js altere
+- No arquivo commands.js altere
 
         { value: '    ', shouldPass: false, message: 'CEP de origem é obrigatório' },
 
