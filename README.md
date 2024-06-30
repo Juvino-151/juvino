@@ -61,4 +61,4 @@ dois scripts o test onde é possível ao clicar, iniciar o comando:
 
    Usando HTTPS:
   
-   git clone git@github.com:Juvino-151/juvino.git
+   git clone https://github.com/Juvino-151/juvino.git
