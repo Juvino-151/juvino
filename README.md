@@ -34,7 +34,11 @@ dois scripts o test onde é possível ao clicar, iniciar o comando:
 
 - cypress open : Exibe a interface gráfica do Cypress, permite que visualize e interaja com os testes de maneira interativa.
 
-- npx cypress video: Exibe no modo headless e com uma interface visual, além de gravar um arquivo mp4 para os dois fluxos, quem podem ser visualizados ao final da execução na pasta videos
+- npx cypress run (escolha seu navegador) video: Exibe no modo headless e com uma interface visual, além de gravar um arquivo .mp4 para os dois fluxos, que podem ser visualizados ao final da execução na pasta videos
+
+**Importante**
+- Por questões de versionamento ao executar ao executar o comando cypress open, seja linha de comando ou diretamente no script ao selecionar o navegador chrome a interface gráfica Cypress Test Runner não é exibida, mesmo após efetuar o tratamento de erros e atualizações de cahe, instalar e desinstalar o cypress e demais funcionalidades necessárias para o desempenho da automação. Por gentileza selecione os navegadores Electron ou Edge
+- Mas ao executar os scripts cypress run e npx cypress run chrome video, localizados nos scripts npm, é possivel visualizar a automação no Chorme corretamente.
 
 ## Criar arquivo screenshots
 - Altere por exemplo o resultado das mensagens de erro:

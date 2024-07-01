@@ -8,7 +8,9 @@
   "scripts": {
     "test": "cypress run",
     "open": "cypress open",
-    "npx cypress run video": "npx cypress run --headed --browser chrome"
+    "npx cypress run chrome video": "npx cypress run --headed --browser chrome",
+    "npx cypress run electron video": "npx cypress run --headed --browser electron",
+    "npx cypress run edge video": "npx cypress run --headed --browser edge"
   
   },
   "devDependencies": {
