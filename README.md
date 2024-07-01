@@ -30,7 +30,7 @@ E campostela.cy.js onde se econtra o fluxo das mensagens de erro.
 - Após efetuar as instalações necessárias e o projeto estiver pronto para ser iniciado, para maior agilidade, no `EXPLORADOR` no Select list `SCRIPT NPM`  contém
 dois scripts o test onde é possível ao clicar, iniciar o comando:
 
-- test - cypress run : Exibe no modo headless, ou seja, sem uma interface gráfica. Ao executa-lo o além do  relatorio dos resultados da automação, caso ocorra alguma falha  o cypress cria um arquivo png onde é possível visualizar na pasta Screenshots e um arquivo .mp4 com a performance de cada fluxo.
+- test - cypress run : Exibe no modo headless, ou seja, sem uma interface gráfica. Ao executa-lo o além do  relatório dos resultados da automação, caso ocorra alguma falha  o cypress cria um arquivo png onde é possível visualizar na pasta Screenshots e um arquivo .mp4 com a performance de cada fluxo.
 
 - cypress open : Exibe a interface gráfica do Cypress, permite que visualize e interaja com os testes de maneira interativa.
 
